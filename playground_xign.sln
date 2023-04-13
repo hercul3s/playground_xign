@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "playground_xign", "playground_xign.vcxproj", "{2D5AE538-7CBC-47EE-8C4D-8FFF2B57E737}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D5AE538-7CBC-47EE-8C4D-8FFF2B57E737}.Debug|x64.ActiveCfg = Debug|x64
+		{2D5AE538-7CBC-47EE-8C4D-8FFF2B57E737}.Debug|x64.Build.0 = Debug|x64
+		{2D5AE538-7CBC-47EE-8C4D-8FFF2B57E737}.Debug|x86.ActiveCfg = Debug|Win32
+		{2D5AE538-7CBC-47EE-8C4D-8FFF2B57E737}.Debug|x86.Build.0 = Debug|Win32
+		{2D5AE538-7CBC-47EE-8C4D-8FFF2B57E737}.Release|x64.ActiveCfg = Release|x64
+		{2D5AE538-7CBC-47EE-8C4D-8FFF2B57E737}.Release|x64.Build.0 = Release|x64
+		{2D5AE538-7CBC-47EE-8C4D-8FFF2B57E737}.Release|x86.ActiveCfg = Release|Win32
+		{2D5AE538-7CBC-47EE-8C4D-8FFF2B57E737}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE431ED6-CFA5-4F90-A6CB-D4E77C25D6F9}
+	EndGlobalSection
+EndGlobal
