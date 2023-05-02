@@ -31,7 +31,7 @@ int main(int argc, char* argv[])
     std::ifstream file(str, std::ios::binary);
 
     if (file.is_open()) {
-        xLog tmp = { 0 }; //320 byte each block
+        xLog tmp = { 0 };
         // Read 320 bytes at a time and store it in the vector
         while (file.read((char*)&tmp, sizeof(tmp))) {
             arrXign.push_back(tmp);
@@ -40,13 +40,13 @@ int main(int argc, char* argv[])
     else {
         std::cout << "Failed to open log file" << std::endl;
     }
-    // Close the file
+
     file.close();
 
 
     for (auto& tmp_log : arrXign) {
    
-        //console->info("Easy padding in numbers like {0:d}", tmp_log.after_hash1);
+       
         v_u8 hash_vector(tmp_log.hash, tmp_log.hash + 4);
         v_u8 tmpArr(16);
         tmpArr = hash_MD5(hash_vector);
